@@ -1,0 +1,71 @@
+//此样式表为index独有的样式//
+@charset "UTF-8"
+html{
+	height: 100%;
+}
+body{
+	margin: 0 0;
+	padding: 0 0;
+	height: 100%;
+	font-family: "MicrosoftYaHei","Microsoft YaHei","微软雅黑",STHeiti,SimSun,"宋体", SimHei, Arial; color: #000;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style-type: none;
+}
+.wrapper{
+	min-height: 100%;
+	width: 70%;
+	margin: auto;
+}
+.title img{
+	height: 130px;
+	margin-top: 17%;
+	margin-bottom: 15%;
+}
+.slogan{
+
+}
+.chaining{
+	position: absolute;
+	left: 12%;
+}
+.chaining a{
+	text-decoration: none;
+	display: inline;
+	font-size: 15px;
+	color: #C2C2C2;
+}
+.footer{
+	position: absolute;
+	height: 10%;
+	bottom: 0px;
+	width: 100%;
+}
+.direction ul{
+	width: 100%;
+	background: #3156A3;
+	height: 30px;
+	position: absolute;
+	bottom: 3em;
+}
+.direction li{
+	display: inline;
+	margin-right: 40px;
+}
+.directionLeft{
+    margin-left: 12%;
+    margin-right: 25%;
+}
+.direction a{
+	color: #E6E6E6;
+}	
+.copyright{
+	position: absolute;
+	bottom: 10px;
+	font-size: 12px;
+	left: 45%;
+}
