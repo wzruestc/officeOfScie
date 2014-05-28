@@ -1,4 +1,4 @@
-//此样式表为index独有的样式//
+//此样式表为Login登录界面独有的样式//
 @charset "UTF-8"
 html{
 	height: 100%;
@@ -21,17 +21,28 @@ li{
 	width: 70%;
 	margin: auto;
 }
-.title img{
-	height: 130px;
-	margin-top: 17%;
-	margin-bottom: 15%;
+.logIn{
+	position: absolute;
+	top: 29%;
 }
-.slogan{
-
+.register-input{
+	width: 230px;
+	height: 30px;
+	font-size: 20px;
+}
+.register-submit{
+	border: 0px;
+    background: #0F8EBF;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
 }
 .chaining{
 	position: absolute;
 	left: 12%;
+	bottom: 16%;
 }
 .chaining a{
 	text-decoration: none;

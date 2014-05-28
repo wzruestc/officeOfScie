@@ -1,0 +1,82 @@
+//此样式表为主要界面通用的样式//
+@charset "UTF-8"
+html{
+	height: 100%;
+}
+body{
+	margin: 0 0;
+	padding: 0 0;
+	height: 100%;
+	font-family: "MicrosoftYaHei","Microsoft YaHei","微软雅黑",STHeiti,SimSun,"宋体", SimHei, Arial; color: #000;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style-type: none;
+}
+.wrapper{
+	min-height: 100%;
+	width: 70%;
+	margin: auto;
+}
+.administratorLogIn{
+	font-size: 20px;
+	color: #C2C2C2;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.title{
+	width: 100%;
+	height: 10%;
+}
+.leftColor{
+	position: absolute;
+	top: 50px;
+	height: 40px;
+	width: 14%;
+	background: #42B3E5;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.title img{
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+.direction ul{
+	width: 58%;
+    background: #42B3E5;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    right: 0px;	
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+.direction li{
+	display: inline;
+	margin-right: 40px;
+}
+.direction a{
+	color: #E6E6E6;
+	font-size: 20px;
+}
+.firstDirection{
+	margin-left: 70px;
+}
+.partingLine{
+	width: 70%;
+	position: absolute;
+	bottom: 20px;
+	left: 200px;
+}
+.copyright{
+	position: absolute;
+	bottom: 10px;
+	font-size: 12px;
+	left: 45%;
+}
