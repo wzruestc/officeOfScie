@@ -8,9 +8,10 @@
 <script type="text/javascript">
 	$(document).ready(function(){
     $("#clickAndFadeOut").click(function(){
-    $("#coverImg").fadeOut();
-    $("#text").removeclass("textHidden");
-    $("#text").addclass("textOut");
+    $("#coverImg").fadeOut(10,function(){
+    	$("").removeclass("");
+    	$("").addclass("");
+    });
   });
 });
 </script>

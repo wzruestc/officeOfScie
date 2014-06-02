@@ -7,7 +7,7 @@ body{
 	margin: 0 0;
 	padding: 0 0;
 	height: 100%;
-	font-family: "MicrosoftYaHei","Microsoft YaHei","微软雅黑",STHeiti,SimSun,"宋体", SimHei, Arial; color: #000;
+	font-family: "新宋体","MicrosoftYaHei","Microsoft YaHei","微软雅黑",STHeiti,SimSun,"宋体", SimHei, Arial; color: #000;
 }
 a{
 	text-decoration: none;
@@ -66,9 +66,6 @@ li{
 	width: 30%;
 	margin-top: 80px;
 	margin-left: 0px;
-}
-#text{
-	width: 45%;
 }
 .leftMenu li{
 	padding-top: 10px;

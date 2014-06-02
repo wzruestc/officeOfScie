@@ -60,6 +60,16 @@ li{
 .firstDirection{
 	margin-left: 70px;
 }
+/*以下是富文本编辑器的位置和大小*/
+.form-horizontal{
+	position: absolute;
+    width: 70%;
+    top: 150px;
+    left: 10%;
+}
+button{
+	border: 0px;
+}
 /*以下是底部分割线和版权的样式*/
 .partingLine{
 	width: 70%;
