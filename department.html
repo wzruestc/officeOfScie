@@ -6,13 +6,9 @@
 <link rel="stylesheet" type="text/css" href="./style/cssofDepartment.css">
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 <script type="text/javascript">
-    var $=jQuery.noConflict();
 	$(document).ready(function(){
-    $("#clickAndFadeOut").click(function(){
-    $("#coverImg").fadeOut(10000,function(){
-    	$("").removeclass("");
-    	$("").addclass("");
-    });
+    $(".clickAndFadeOut").click(function(){
+    $("#coverImg").fadeOut(1000)
   });
 });
 </script>
@@ -33,15 +29,15 @@
     <div class="mainBody">
 	    <div class="leftMenu">
 	    	<ul>
-	    		<li><a href="#studentsUnion" id="clickAndFadeOut">通信学院分团委学生会</a></li>
-	    		<li><a href="#IEC" id="clickAndFadeOut">互动体验中心</a></li>
+	    		<li><a href="#studentsUnion" class="clickAndFadeOut">通信学院分团委学生会</a></li>
+	    		<li><a href="#IEC" class="clickAndFadeOut">互动体验中心</a></li>
 	    		    <ul id="IEC">
-	    		    	<li><a href="" id="clickAndFadeOut">IEC工作室</a></li>
-	    		    	<li><a href="" id="clickAndFadeOut">E点工作室</a></li>
-	    		    	<li><a href="" id="clickAndFadeOut">创印工坊</a></li>
-	    		    	<li><a href="" id="clickAndFadeOut">GCMM团队</a></li>
+	    		    	<li><a href="" class="clickAndFadeOut">IEC工作室</a></li>
+	    		    	<li><a href="" class="clickAndFadeOut">E点工作室</a></li>
+	    		    	<li><a href="" class="clickAndFadeOut">创印工坊</a></li>
+	    		    	<li><a href="" class="clickAndFadeOut">GCMM团队</a></li>
 	    		    </ul>
-	    		<li><a href="#scienceInstitute" id="clickAndFadeOut">通信科协</a></li>
+	    		<li><a href="#scienceInstitute" class="clickAndFadeOut">通信科协</a></li>
 	    	</ul>
 	    </div>
 	    <div id="text">

@@ -4,21 +4,19 @@
 <title>Scie学生发展中心</title>
 <link rel="stylesheet" type="text/css" href="./style/cssofMainBody.css">
 <link rel="stylesheet" type="text/css" href="./style/cssofStudentsWork.css">
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>s
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 <script type="text/javaScript">
     $(document).ready(function(){
     	$("#clickAndFadeOut1").click(function(){
-    	    $("#coverImg").fadeOut(10,function(){
-    	    	$("#studentsMessage").removeclass("messageOut");
-    	    	$("#studentsMessage").addclass("messageIn");
+    	    $("#coverImg").fadeOut(1000,function(){
+    	    	$("#studentsMessage").fadeIn(1000);
     	    });
         });
     });
     $(document).ready(function(){
     	$("#clickAndFadeOut2").click(function(){
-    	    $("#coverImg").fadeOut(10,function(){
-    	    	$("#uploadFiles").removeclass("uploadFilesOut");
-    	    	$("#uploadFiles").addclass("uploadFilesIn");
+    	    $("#coverImg").fadeOut(1000,function(){
+    	    	$("#uploadFiles").fadeIn(1000);
     	    });
         });
     });
