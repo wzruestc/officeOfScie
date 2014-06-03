@@ -42,10 +42,11 @@ li{
 .direction ul{
 	width: 58%;
     background: #42B3E5;
-    height: 40px;
     position: absolute;
     top: 35px;
-    right: 0px;	
+    right: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;	
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 
