@@ -15,9 +15,15 @@
     });
     $(document).ready(function(){
     	$("#clickAndFadeOut2").click(function(){
-    	    $("#coverImg").fadeOut(1000,function(){
-    	    	$("#uploadFiles").fadeIn(1000);
-    	    });
+    		if(document.getElementById("#coverImg").css("display")==='none'){
+    			$("form").each().fadeout(1000,function(){
+    				$("#clickAndFadeOut2").fadeIn(1000);
+    			}
+    		else{
+    			$(#coverImg).fadeout(1000,function(){
+    				$("#clickAndFadeOut2").fadeIn(1000);
+    			});
+    		}
         });
     });
 </script>
@@ -38,7 +44,7 @@
     <div class="mainBody">
 	    <div class="leftMenu">
 	    	<ul>
-	    		<li><a href="#message" id="clickAndFadeOut1">我要留言</a></li>
+	    		<li><a href="#studentsMessage"id="clickAndFadeOut1">我要留言</a></li>
 	    		<li><a href="#filesUpLoad" id="clickAndFadeOut2">文件上传</a></li>
 	    	</ul>
 	    </div>
