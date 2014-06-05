@@ -15,7 +15,7 @@
     });
     $(document).ready(function(){
     	$("#clickAndFadeOut2").click(function(){
-    		if(document.getElementById("#coverImg").css("display")==='none'){
+    		if($("#coverImg").css("display","none")){
     			$("form").each().fadeout(1000,function(){
     				$("#clickAndFadeOut2").fadeIn(1000);
     			});
