@@ -22,6 +22,4 @@ li{
 #IEC:target{
 	display: block;
 }
-ul #IEC:not(:target){
-	display: none;
-}
+

@@ -18,9 +18,10 @@
     		if(document.getElementById("#coverImg").css("display")==='none'){
     			$("form").each().fadeout(1000,function(){
     				$("#clickAndFadeOut2").fadeIn(1000);
-    			}
+    			});
+    		}
     		else{
-    			$(#coverImg).fadeout(1000,function(){
+    			$("#coverImg").fadeout(1000,function(){
     				$("#clickAndFadeOut2").fadeIn(1000);
     			});
     		}
@@ -49,7 +50,7 @@
 	    	</ul>
 	    </div>
 	    <div>
-	    <img src="./img/cover.png" id="coverImg">
+	    <img src="./img/cover.png" id="coverImg" class="rightBlock">
 	    <form id="studentsMessage" class="messageOut">
 	    	<span>辅导员选择</span>
 	    	<select name="instructor" >
