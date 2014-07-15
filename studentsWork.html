@@ -15,14 +15,14 @@
     });
     $(document).ready(function(){
     	$("#clickAndFadeOut2").click(function(){
-    		if($("#coverImg").css("display","none")){
-    			$("form").each().fadeout(1000,function(){
-    				$("#clickAndFadeOut2").fadeIn(1000);
+    		if($("#coverImg").css("display")=="block"){
+    			$("#coverImg").fadeOut(1000,function(){
+    				$("#uploadFiles").fadeIn(1000);
     			});
     		}
     		else{
-    			$("#coverImg").fadeout(1000,function(){
-    				$("#clickAndFadeOut2").fadeIn(1000);
+    			$("form").each().fadeOut(1000,function(){
+    				$("#uploadFiles").fadeIn(1000);
     			});
     		}
         });
